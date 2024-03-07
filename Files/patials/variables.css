@@ -1,0 +1,28 @@
+ /***  import fonts from fonts.css  ***/
+ 
+ @import url(./fonts.css);
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     background-image: url(../img/body-bg.png);
+     background-repeat: no-repeat;
+ }
+ /**CSS variables */
+ 
+ :root {
+     --priColor: #ED1C24;
+     --priColor2: #F7931E;
+     --titleColor: #141313;
+     --textColor: #777777;
+     --borderColor: #201f1f17;
+     --linearGrad: linear-gradient(90deg, #ED1C24 0%, #F7931E 100%);
+     --shadowColor: 0px 10px 30px #ed1c2338;
+     --boxShadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+     /** Font family Varables */
+     --roboto: 'Roboto', cursive;
+ }
+ 
+ .font-roboto {
+     font-family: var(--roboto);
+ }

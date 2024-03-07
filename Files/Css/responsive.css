@@ -1,0 +1,49 @@
+@media screen and (max-width:340px) {
+    .header-area .main-menu .navbar .navbar-brand,
+    .header-area .main-menu .navbar,
+    .services-sec,
+    h4 {
+        padding: 2%;
+        margin: 0;
+    }
+    .sub-sec .container .row .input input {
+        width: 15rem;
+    }
+    .main-section .site-banner h3 {
+        font-size: 16px;
+    }
+    .main-section .site-banner h1 {
+        font-size: 3rem;
+        padding: 0 !important;
+    }
+    .main-section .site-banner h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width:792px) {
+    .about-sec span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .brand-sec .experience-area .years {
+        padding: 1rem 0;
+        height: 10;
+        padding-left: 5rem;
+        width: 20%;
+        background-image: none;
+    }
+    .brand-sec .experience-area .bg-panel {
+        width: 80%;
+        margin-left: 30%;
+        display: none;
+    }
+    .brand-sec .experience-area .years h2 {
+        font: normal bold 30px/40px var(--roboto);
+    }
+    .brand-sec .experience-area h2 span {
+        font-size: 16px;
+    }
+}
